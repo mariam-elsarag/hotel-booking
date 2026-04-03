@@ -31,7 +31,7 @@ export default async function RootLayout({ children, params }) {
       dir={dir}
       className={`${inter.variable}  h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
+      <body className={`${inter.variable} h-full antialiased`}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           {children}
         </NextIntlClientProvider>

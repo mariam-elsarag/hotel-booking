@@ -19,7 +19,9 @@ export default function LanguageSwitcher({ className }) {
       } `}
       onClick={() => router.push(`/${switchLocale}${pathname.slice(3)}`)}
     >
-      <Button icon={<LanguageIcon width="18" hight="18" />} size="xs" />
+      <span className="flex w-8 h-8 rounded-full items-center justify-center bg-white">
+        <LanguageIcon width="18" hight="18" />
+      </span>
       {switchLocale.toUpperCase()}
     </button>
   );

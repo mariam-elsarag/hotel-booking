@@ -8,6 +8,7 @@ const Button = ({
   variant = "white",
   hasFullWidth = false,
   hasCenterContent = true,
+  hasHover = true,
   onClick,
   to,
   arialLabel,
@@ -33,8 +34,11 @@ const Button = ({
     xs: "w-8 h-8 ",
   };
   const styles = {
-    white:
-      "bg-white text-black border border-transparent hover:border-white hover:text-white hover:bg-white/5 hover:backdrop-blur-md ",
+    white: `bg-white text-black border border-transparent ${
+      hasHover
+        ? "hover:border-white hover:text-white hover:bg-white/5 hover:backdrop-blur-md"
+        : ""
+    }`,
     transparent: "",
     black: "bg-black text-white",
   };
