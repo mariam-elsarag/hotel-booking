@@ -1,9 +1,15 @@
 {
-  "home": {
-    "title": "Welcome",
-    "description": "This is the home page"
-  },
-  "auth": {
-    "user_email_exist": "User with this email already exists."
-  }
+  "home": "Home",
+  "explore": "Explore",
+  "about": "About",
+  "blogs": "Blogs",
+  "profile": "Profile",
+  "signIn": "Sigin in",
+  "findYourStayction": "Find your best staycation ",
+  "slogen": "Our mission is to elevate travel experiences by providing reliable, well-curated stays and a smooth booking journey.",
+  "pages": "Pages",
+  "terms_conditions": "Terms & conditions",
+  "privacy_policy": "Privacy policy",
+  "cookies": "Cookies",
+  "copy_right": "All rights reserved."
 }
